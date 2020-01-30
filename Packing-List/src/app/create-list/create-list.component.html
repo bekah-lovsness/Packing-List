@@ -1,0 +1,45 @@
+<link href='https://fonts.googleapis.com/css?family=Delius Unicase' rel='stylesheet'>
+
+ <travel-info (sendInfoEvent)="receiveInfo($event)"></travel-info>
+<div class="packing-list">
+    <h2 id="heading">Packing List for {{location}}</h2>
+    <div class="container">
+        <form>
+            <table class="checklist">
+           <thead>
+               <tr>
+                <th>Clothing</th>
+                <th>Toiletries</th>
+               </tr>  
+           </thead>
+           <tbody>
+               <tr>
+                <td><input type="checkbox" name="Shirts" value="Shirts">Shirts</td>
+                <td><input type="checkbox" name="Shampoo" value="Shampoo">Shampoo</td>
+               </tr>
+            <tr>
+                <td><input type="checkbox" name="Pants" value="Pants">Pants</td>
+                <td><input type="checkbox" name="Conditioner" value="Conditioner">Conditioner</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="Underwear" value="Underwear">Underwear</td>
+                <td><input type="checkbox" name="Body-Wash" value="Body-Wash" >Body Wash</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="Socks" value="Socks">Socks</td>
+                <td><input type="checkbox" name="Face-Wash" value="Face-Wash"> Face Wash</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="Pajamas" value="Pajamas">Pajamas</td>
+                <td><input type="checkbox" name="Toothbrush-Paste" value="Toothbrush-Paste"> Toothbrush and Paste</td>
+           </tr>
+           <tr>
+            <td><input type="checkbox" name="Shoes" value="Shoes">Shoes</td>
+            <td><input type="checkbox" name="Deodorant" value="Deodorant"> Deodorant</td>
+          </tr>
+            </tbody>
+              
+          </table>
+        </form>
+          </div>
+</div>

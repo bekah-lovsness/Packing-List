@@ -1,0 +1,7 @@
+<link href='https://fonts.googleapis.com/css?family=Delius' rel='stylesheet'>
+
+
+<question-form (messageEvent)="receiveMessage($event)"></question-form>
+<p>You are going to {{message[0]}} for {{message[1]}} days.</p>
+<button id="button" type="button"(click)="sendInfo()">Make My List</button>
+

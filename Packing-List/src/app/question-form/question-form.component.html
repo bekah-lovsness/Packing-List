@@ -1,0 +1,16 @@
+<link href='https://fonts.googleapis.com/css?family=Delius' rel='stylesheet'>
+
+<div id="questionForm" >
+<form>
+    <table class="questions">
+        <thead>
+   <tr> <th>Before we deliver your packing list, please answer the following: </th></tr>
+</thead>
+    <tbody>
+       <tr> <label>Where are you going? <input #location type="text" name="location" id="location"/></label></tr>
+      <tr><label>How many days? <input #days type="text" name="days" id="days"/></label></tr>
+    </tbody>
+    <button id="button" type="button" (click)="assignValues(location.value, days.value)">Submit</button>
+</table>   
+    </form>
+</div>

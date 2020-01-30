@@ -1,0 +1,9 @@
+p, #button {
+    font-family: Delius;
+    font-size: larger;
+}
+
+#button {
+    background-color: rgb(3, 80, 70);
+    color: white;
+}

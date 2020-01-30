@@ -1,0 +1,32 @@
+.questionForm {
+    font-family: Delius;
+}
+
+.questions {
+    font-family: Delius;
+color: white;
+text-align: center;
+border-spacing: 1; 
+border-collapse: collapse; 
+background:rgb(3, 133, 115);
+border-radius:6px;
+overflow:hidden;
+ 
+width:100%;
+margin:0 auto;
+position:relative;
+        }          
+          
+
+td,th           { padding-left:8px}
+
+thead tr        { 
+  height:60px;
+  background:rgb(3, 80, 70);
+  font-size:16px;
+}
+#button {
+  background-color: rgb(3, 80, 70);
+  color: white;
+  font-family: Delius;
+}
