@@ -1,0 +1,10 @@
+<div>
+    <form id="questionForm">
+        <h3>Before we deliver your packing list, please answer the following: </h3>
+
+        <label>Where are you going? <input #location type="text" name="location" id="location"/></label><br>
+        <label>How many days? (1-10) <input #days type="text" name="days" id="days"/></label><br>
+        <button type="button" id="button" (click)="handleClick(location, days)">Submit</button>
+    </form>
+    
+</div>
